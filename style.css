@@ -236,12 +236,14 @@ main{
 }
 
 /*Hover Button*/
+@media (hover){
+  .button-add-product:hover {
 
-.button-add-product:hover {
-
-  background: hsl(14, 86%, 42%);
-  color: white;
- 
+    background: hsl(14, 86%, 42%);
+    color: white;
+   
+  }
+  
 }
 
 .button-add-product:hover img{
