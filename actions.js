@@ -110,7 +110,10 @@ async function fetchData() {
         productPrice.innerText = `$${value.price.toFixed(2)}`;
 
         button.innerText = "Add to Cart";
-        iconCart.src = "icons/icon-cart.png";
+        cartIcon = document.createElement('img');
+        cartIcon.src = "icons/icon-cart.png"
+        button.prepend(cartIcon)
+        
         // Add event listener for setting the button to an active state
         button.addEventListener('click', (event) => {event.preventDefault()
             productContainer = event.target.parentElement.parentElement.parentElement
