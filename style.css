@@ -6,6 +6,15 @@
    
 }
 
+/*IOS speciality to avoid double clicks on events*/
+.button-add-product {
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+
+}
+
 /*Font Family */
 
 @font-face {
@@ -236,15 +245,14 @@ main{
 }
 
 /*Hover Button*/
-@media (pointer: fine){
-  .button-add-product:hover {
+.button-add-product:hover {
 
     background: hsl(14, 86%, 42%);
     color: white;
    
   }
   
-}
+
 
 .button-add-product:hover img{
   display: none;
