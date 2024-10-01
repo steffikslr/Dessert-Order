@@ -119,16 +119,16 @@ async function fetchData() {
 
 
         // Add event listeners for minus and plus icons
-        iconMinusRegular.addEventListener('touchstart', (event) => { event.preventDefault();
+        iconMinusRegular.addEventListener('mouseover', (event) => { event.preventDefault();
                                                                     substractItem(event.target, event.type);
                                                                     });
-        iconMinusRegular.addEventListener('touchend', (event) => { event.preventDefault();
+        iconMinusRegular.addEventListener('click', (event) => { event.preventDefault();
                                                                 substractItem(event.target, event.type);    
                                                                 });
        
-       /* iconMinusFull.addEventListener('touchend', (event) => { event.preventDefault();
+        iconMinusFull.addEventListener('mouseout', (event) => { event.preventDefault();
                                                                     substractItem(event.target, event.type);
-                                                                 });*/
+                                                                 });
 
         iconMinusFull.addEventListener('click', (event) => { event.preventDefault();
                                                                   substractItem(event.target, event.type);
