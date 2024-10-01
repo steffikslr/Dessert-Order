@@ -125,6 +125,9 @@ async function fetchData() {
         iconMinusRegular.addEventListener('click', (event) => { event.preventDefault();
                                                                 substractItem(event.target, event.type);    
                                                                 });
+
+        iconMinusRegular.addEventListener('touchstart', () => console.log("Test"));
+        iconMinusFull.addEventListener('touchstart', () => console.log("Test Full"));
        
         iconMinusFull.addEventListener('mouseout', (event) => { event.preventDefault();
                                                                     substractItem(event.target, event.type);
