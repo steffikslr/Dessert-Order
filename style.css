@@ -236,7 +236,7 @@ main{
 }
 
 /*Hover Button*/
-@media (hover){
+@media (pointer: fine){
   .button-add-product:hover {
 
     background: hsl(14, 86%, 42%);
