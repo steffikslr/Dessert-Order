@@ -7,7 +7,7 @@
 }
 
 /*IOS speciality to avoid double clicks on events*/
-.button-add-product {
+.button-add-product, .iconMinusRegular, .iconMinusFull, .iconPlusRegular, .iconPlusFull {
 
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
